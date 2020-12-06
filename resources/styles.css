@@ -1,0 +1,46 @@
+html {
+  font-size: 16px;
+}
+#name {
+  font-family: "Yeon Sung", cursive;
+  font-size: 4rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+nav {
+  display: inline-flex;
+  float: right;
+  font-size: 2rem;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 0px 3rem;
+}
+
+p{
+    font-size:1.5rem;
+}
+.about-section{
+    margin-top:10rem;
+    display:flex;
+    text-align:left;
+}
+.portrait {
+    padding-right:10rem;
+    float:right;
+    width: 300px;
+    border-radius: var(--border-radius);
+    flex-shrink: 0;
+  }
+.text-container{
+    font-size:1.5rem;
+    padding:1rem 6rem;
+   }
+
+.projects-container{
+    padding:1rem 6rem;
+    font-size:1.5rem;
+    
+}
